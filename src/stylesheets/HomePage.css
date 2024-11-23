@@ -1,0 +1,15 @@
+
+
+.HomePage .btn {
+    /* background-color: #1677FF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s; */
+}
+
+.HomePage .btn:hover {
+    /* background-color: #0056b3; */
+}

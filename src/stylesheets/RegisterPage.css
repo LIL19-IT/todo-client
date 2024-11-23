@@ -1,0 +1,71 @@
+.RegisterPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+
+.RegisterPage .title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1677FF;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.RegisterPage .registerForm {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.RegisterPage .inputBox {
+    position: relative;
+    margin-bottom: 18px;
+}
+
+.RegisterPage .inputBox i {
+    position: absolute;
+    top: 36px;
+    right: 15px;
+    cursor: pointer;
+
+    &:hover {
+        color: #1677FF;
+    }
+}
+
+.RegisterPage label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.RegisterPage label span {
+    color: red;
+}
+
+.RegisterPage .inputBox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.RegisterPage .goToLoginPage {
+    color: #1677FF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-bottom: 1px solid transparent; 
+    transition: border-bottom 0.3s ease; 
+
+    &:hover {
+        border-bottom: 1px solid #1677FF; 
+    }
+}

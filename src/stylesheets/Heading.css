@@ -1,0 +1,14 @@
+.Heading {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.HomePage h1 {
+    font-size: 28px;
+    color: #333;
+}
+
+.Heading .btn {
+    width: max-content;
+}

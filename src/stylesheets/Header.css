@@ -1,0 +1,27 @@
+.Header {
+    text-align: center;
+    padding: 20px;
+    color: #1677FF;
+    background: #fff;
+    letter-spacing: 2px;
+    text-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.Header .title {
+    font-size: 46px;
+    font-weight: 300;
+    margin-bottom: 20px;
+    -webkit-text-stroke: 1px;
+}
+
+.Header .description {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000;
+}
+
+.Header .description span {
+    font-weight: 700;
+}

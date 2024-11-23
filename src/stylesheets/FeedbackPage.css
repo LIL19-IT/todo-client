@@ -1,0 +1,70 @@
+.FeedbackPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.FeedbackPage .title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1677FF;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.FeedbackPage .feedbackForm {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.FeedbackPage .row {
+    margin-bottom: 10px;
+}
+
+.FeedbackPage .inputBox {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.FeedbackPage label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.FeedbackPage input[type="text"],
+.FeedbackPage input[type="email"],
+.FeedbackPage input[type="submit"],
+.FeedbackPage textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.FeedbackPage textarea {
+    resize: none;
+    height: 120px;
+}
+
+.FeedbackPage input[type="submit"] {
+    background-color: #1677FF;
+    color: white;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.FeedbackPage input[type="submit"]:hover {
+    background-color: #0056cc;
+}

@@ -1,0 +1,19 @@
+.AddTodo {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: auto
+}
+
+.AddTodo input[type="text"] {
+    padding: 8px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    margin-right: 10px;
+    transition: border-color .3s;
+
+    &:focus {
+        border-color: #1677ff;
+    }
+}

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import './Header.css';
+@import './LoginPage.css';
+@import './RegisterPage.css';
+@import './HomePage.css';
+@import './Loading.css';
+@import './Heading.css';
+@import './AddTodo.css';
+@import './TodoList.css';
+@import './FeedbackPage.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  /* border: none; */
+  outline: none;
+  background: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: "Inter", serif;
+}
+
+body {
+  background: rgb(241, 243, 246); 
+}
+
+.btn {
+  color: #fff;
+  padding: 8px 15px;
+  border: 2px solid #1677ff;
+  background: #1677ff;
+  cursor: pointer;
+  font-size: 16px;
+  border-radius: 5px;
+  width: 100%;
+  transition: background .5s;
+
+  &:hover {
+    color: #1677ff;
+    background: #fff;
+  }
+}

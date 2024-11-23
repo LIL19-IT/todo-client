@@ -1,0 +1,109 @@
+.LoginPage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    margin-top: 50px;
+}
+
+.LoginPage .title {
+    font-size: 32px;
+    font-weight: 500;
+    color: #1677FF;
+    margin-bottom: 20px;
+    letter-spacing: 1px;
+}
+
+.LoginPage .loginForm {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.493);
+    padding: 20px;
+    width: 100%;
+    max-width: 400px;
+}
+
+.LoginPage .inputBox {
+    position: relative;
+    margin-bottom: 15px;
+}
+
+.LoginPage .inputBox i {
+    position: absolute;
+    top: 36px;
+    right: 15px;
+    cursor: pointer;
+
+    &:hover {
+        color: #1677FF;
+    }
+}
+
+.LoginPage label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    color: #333;
+}
+
+.LoginPage label span {
+    color: red;
+}
+
+.LoginPage input[type="text"],
+.LoginPage input[type="email"],
+.LoginPage input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.LoginPage .loginForm .rememberMe {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    margin-bottom: 13px;
+    font-size: 14px;
+    color: #333;
+}
+
+.LoginPage .loginForm .rememberMe input[type="checkbox"] {
+    width: 18px;
+    height: 18px;
+    margin-right: 10px;
+    accent-color: #007BFF;
+}
+
+.LoginPage .loginForm .rememberMe label {
+    cursor: pointer;
+    margin-top: 4px;
+    font-size: 14px;
+    color: #555;
+    user-select: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: #007BFF;
+    }
+}
+
+.LoginPage .links {
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+}
+
+.LoginPage .links a {
+    color: #1677FF;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s ease;
+
+    &:hover {
+        border-bottom: 1px solid #1677FF;
+    }
+}
